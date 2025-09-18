@@ -10,6 +10,12 @@ default max_love_score = 200 # Max ceiling for love score
 default love_score_tracker = 0 # Tracks total love_score drop for max_love_score reduction
 default mark_awareness = 0
 default sarah_discontent = 0
+default day5_choice = 0
+default day6_choice = 0
+default day7_choice = 0
+default day8_choice = 0
+default day9_choice = 0
+default day10_choice = 0
 
 init python:
     def update_love_score(amount):
@@ -50,4 +56,4 @@ label start:
     $ m = Character(mc_name)
 
     # Initial scene setup, if any, before the main story begins.
-    call chapter1_day1
+    call day1
