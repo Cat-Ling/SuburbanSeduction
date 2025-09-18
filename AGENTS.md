@@ -32,8 +32,8 @@ Refer to the `story.md` file located in the `Suburban Seduction` directory for a
     Suburban Seduction/
     ├── game/
     │   ├── chapter1_intro.rpy
-    │   ├── chapter1_day1.rpy
-    │   ├── chapter1_day2.rpy
+    │   ├── chapter1.rpy
+    │   ├── chapter2.rpy
     │   ├── options.rpy
     │   ├── screens.rpy
     │   └── images/
@@ -84,10 +84,10 @@ Ren'Py scripts (`.rpy` files) are primarily composed of statements and Python bl
 
 ## Current Story State (as of last interaction):
 
-*   The story is split across multiple `.rpy` files in the `game/` directory.
+*   The story is now split into single chapter files (e.g., `chapter1.rpy`, `chapter2.rpy`).
 *   `chapter1_intro.rpy` handles the game's start and asks for the player-character's name.
-*   `chapter1_day1.rpy` contains the initial story segment, focusing on a normal, loving interaction between the MC and Sarah, with David's comment being genuinely dismissed or casually inquired about, without immediate suspicion.
-*   The story is currently set to continue in `chapter1_day14.rpy` from the `label chapter1_day14:`.
+*   `chapter1.rpy` contains the first 15 days of the story.
+*   The story is currently set to continue in `game/chapter2.rpy` from the `label day12`.
 
 ## Action Plan for Agent:
 
